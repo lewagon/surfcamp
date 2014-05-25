@@ -1,8 +1,8 @@
 # Site settings
+title: "Code & Surf Camp - Le Wagon"
 email: contact@lewagon.org
 description: "Bring your board and laptop for an awesome 2 week dev bootcamp in the south-west of France. For beginners and hackers."
 baseurl: "/surfcamp"
-url: "http://lewagon.github.io"
 
 # Build settings
 markdown: kramdown
