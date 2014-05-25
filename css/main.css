@@ -1855,19 +1855,19 @@ section h2 {
     background-repeat: no-repeat;
 }
 .icon-rss {
-    background-image: url("../icon-rss.png");
+    background-image: url("../assets/icon-rss.png");
     background-size: 11px;
     background-position: 1px 0px;
 }
 .icon-twitter {
-    background-image: url("../icon-twitter.png");
+    background-image: url("../assets/icon-twitter.png");
     background-size: 14px;
     background-position: 1px 1px;
     width: 15px;
     height: 15px;
 }
 .icon-facebook {
-    background-image: url("..//icon-facebook.png");
+    background-image: url("../assets/icon-facebook.png");
     background-size: 14px;
     background-position: 0 0;
     width: 14px;
