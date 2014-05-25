@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-    <body>
+<body>
 
-    {% include header.html %}
+  <div style="top:0; height: 100px; left: 0; right:0; position: fixed; background: url({{ site.baseurl }}/assets/wip.gif) center center no-repeat; z-index:99999999999999;">
+  </div>
 
-    <div class="page-content">
-      <div class="wrap">
+  {% include header.html %}
+
+  <div class="page-content">
+    <div class="wrap">
       {{ content }}
-      </div>
     </div>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    </body>
+</body>
 </html>
