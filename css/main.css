@@ -10,6 +10,10 @@
   margin: auto;
 }
 
+.center {
+  text-align: center;
+}
+
 .clear {
   clear: both;
 }
@@ -1834,12 +1838,14 @@ section h2 {
     border: 2px solid #D23333;
     border-radius: 3px;
     color: #D23333;
-    transition: none;
+    transition: all 0.3s ease-in;
 }
 .btn-outline:hover {
     border: 2px solid #D23333;
     color: #D95252;
-    background: none;
+    background-color: #D23333;
+    color: white;
+    transition: none;
 }
 .icon {
     display: inline-block;
@@ -2250,7 +2256,6 @@ article small {
       display: none;
   }
 }
-
 
 /*http://codepen.io/jlalovi/pen/bIyAr*/
 
