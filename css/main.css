@@ -175,7 +175,7 @@ button, input, select[multiple], textarea {
     background-image: none;
 }
 a {
-    color: #428bca;
+    color: #2a6496;
     text-decoration: none;
 }
 a:hover, a:focus {
@@ -1639,15 +1639,6 @@ h1, h2, h3, h4, h5 {
     font-family: "proxima-nova",  "Helvetica Neue",  Avenir,  Arial,  sans-serif;
     color: #263c4c;
 }
-a {
-    color: #0A2633;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-a:hover {
-    color: black;
-    text-decoration: none;
-}
 .container {
     max-width: 820px;
     margin: 0 auto;
@@ -1695,7 +1686,7 @@ a:hover {
     margin-top: 0;
 }
 .blog-cover {
-    height: 600px;
+    height: 620px;
     background-color: #111;
     background-size: cover;
     background-position: center center;
@@ -1704,7 +1695,7 @@ a:hover {
 }
 .blog-cover h1 {
     font-size: 46px;
-    margin-top: 3.2em;
+    margin-top: 3.8em;
     margin-bottom: 0em;
     color: #fff;
     font-weight: bold;
