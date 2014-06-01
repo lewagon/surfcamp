@@ -11,4 +11,17 @@
 
   <link rel="shortcut icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon">
   <link rel="icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon">
+
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.baseurl }}" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/og.jpg" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:site_name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:creator" content="@Lewagonaris">
+  <meta name="twitter:image:src" content="{{ site.baseurl }}/assets/og.jpg">
 </head>

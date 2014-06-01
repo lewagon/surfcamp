@@ -2181,6 +2181,12 @@ article small {
   .blog-cover h3, .article-cover h3, .blog-cover h3 {
       font-size: 1em;
   }
+  .blog-cover h1 {
+    margin-top: 2em;
+  }
+  .site-nav #navigation a {
+    margin: 0 0.4em;
+  }
   .site-nav .tagline {
       display: none;
   }

@@ -1,7 +1,7 @@
 # Site settings
 title: "Code & Surf Camp - Le Wagon"
 email: contact@lewagon.org
-description: "Bring your board and laptop for an awesome 2 week dev bootcamp in the south-west of France. For beginners and hackers."
+description: "Apportez votre planche et votre ordi pour 2 semaines de formation Code & Surf dans les Landes !"
 baseurl: "/surfcamp"
 
 # Build settings
