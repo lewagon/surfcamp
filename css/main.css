@@ -1619,7 +1619,6 @@ th.hidden-print, td.hidden-print {
 body {
     margin: 0;
     border: 0;
-    padding: 80px 0 0;
     font-family: "proxima-nova",  "Helvetica Neue",  Avenir,  Arial,  sans-serif;
     color: #21272d;
     -webkit-font-smoothing: antialiased;
@@ -1862,11 +1861,6 @@ article h2 a, article h2 a:hover {
 }
 .site-nav {
     background: #fff;
-    height: 130px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -1888,10 +1882,10 @@ article h2 a, article h2 a:hover {
     padding: 22px 30px;
     float: left;
     height: 80px;
-    display: table-cell;
 }
 .site-nav #navigation {
     padding-right: 0;
+    height: 130px;
 }
 .site-nav #navigation a {
     border: 0;
@@ -2197,8 +2191,8 @@ article small {
   .site-nav .tagline {
       display: none;
   }
-  .site-nav #navigation a {
-      display: none;
+  .site-nav {
+    height: 170px;
   }
   .site-nav #navigation {
     display: block;
@@ -2207,7 +2201,8 @@ article small {
     padding-left: 0;
   }
   .site-nav #navigation .brand {
-      display: inline-block;
+      display: block;
+      margin-bottom: 10px;
   }
   .site-nav #navigation .brand img {
     height: 100px;
