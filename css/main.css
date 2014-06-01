@@ -1731,6 +1731,10 @@ h1, h2, h3, h4, h5 {
 section h2 {
   color: #0A2633;
 }
+article h2 a, article h2 a:hover {
+  color: #0A2633;
+  text-decoration: none;
+}
 .blog-cover section a:hover {
     transition: 0.2s all ease;
     background: #fff;
