@@ -1853,27 +1853,15 @@ article h2 a, article h2 a:hover {
     background-position: 0px -14px;
 }
 .site-nav {
-    background: #fff;
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    transition: all 0.35s ease;
-    z-index: 100;
-}
-.site-nav .caret {
-    opacity: 0.2;
+  border-bottom: 1px solid #eee;
 }
 .site-nav .brand img {
     height: 100px;
     margin-right: 10px;
     margin-top: -2px;
 }
-.site-nav .dropdown {
-    display: inline-block;
-}
 .site-nav nav {
     padding: 22px 30px;
-    float: left;
     height: 80px;
 }
 .site-nav #navigation {
@@ -1908,9 +1896,6 @@ article h2 a, article h2 a:hover {
     font-size: 15px;
     font-weight: 600;
     margin-top: 1.8em;
-}
-.site-nav .tagline .btn-small {
-  display: none;
 }
 .site-nav .tagline span {
     line-height: 0;
