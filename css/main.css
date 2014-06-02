@@ -1867,6 +1867,7 @@ article h2 a, article h2 a:hover {
 .site-nav #navigation {
     padding-right: 0;
     height: 130px;
+    padding-left: 0;
 }
 .site-nav #navigation a {
     border: 0;
@@ -1880,7 +1881,7 @@ article h2 a, article h2 a:hover {
     color: #444;
     border: 0;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     display: inline-block;
 }
 .site-nav #navigation .dropdown-toggle {
