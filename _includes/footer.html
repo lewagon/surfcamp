@@ -17,6 +17,13 @@
       </a>
     </nav>
   </div>
+  <div class="container partenaires">
+    {% for partenaire in site.data.partenaires %}
+      <a href="{{ partenaire.url }}" target="_blank">
+        <img src="{{ site.baseurl }}/assets/partenaires/{{ partenaire.img }}" alt="{{ partenaire.name }}">
+      </a>
+    {% endfor %}
+  </div>
 </footer>
 
 <script>

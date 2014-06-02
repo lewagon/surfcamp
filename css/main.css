@@ -1749,6 +1749,13 @@ article h2 a, article h2 a:hover {
     background: whitesmoke;
     color: #aaa;
 }
+.site-footer .partenaires {
+  color: #aaa;
+  margin-top: 2em;
+}
+.site-footer .partenaires img {
+  width: 120px;
+}
 .site-footer a {
     color: #777;
     border: 0;
