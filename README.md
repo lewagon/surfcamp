@@ -6,4 +6,4 @@ To work on the site:
 $ jekyll serve --watch
 ```
 
-Then go to [http://localhost:4000/surfcamp](http://localhost:4000/surfcamp)
+Then go to [http://localhost:4000/](http://localhost:4000/)
