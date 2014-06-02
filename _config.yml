@@ -3,7 +3,7 @@ title: "Code & Surf Camp - Le Wagon"
 email: contact@lewagon.org
 description: "Apportez votre planche et votre ordi pour 2 semaines de formation Code & Surf dans les Landes !"
 url: http://surfcamp.lewagon.org
-baseurl: "/"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
