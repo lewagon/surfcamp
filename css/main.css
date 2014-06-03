@@ -1693,15 +1693,18 @@ h1, h2, h3, h4, h5 {
     text-shadow: 1px 1px 3px #2E291F, 1px -1px 3px #2E291F;
 }
 .blog-cover h1 {
-    font-size: 46px;
+    font-size: 50px;
     margin-top: 4.2em;
     margin-bottom: 0em;
     color: #fff;
     font-weight: bold;
+    text-shadow: 3px 4px 8px #000;
 }
 .blog-cover h3 {
+  font-size:25px;
   font-weight: normal;
   color: #fff;
+  text-shadow: 3px 4px 8px #000;
 }
 
 .blog-cover section {
