@@ -1700,7 +1700,6 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
     background-position: center center;
     z-index: 1;
-    text-shadow: 1px 1px 3px #2E291F, 1px -1px 3px #2E291F;
 }
 .blog-cover h1 {
     font-size: 50px;
@@ -1713,8 +1712,8 @@ h1, h2, h3, h4, h5 {
 .blog-cover h3 {
   font-size:25px;
   font-weight: normal;
-  color: #fff;
-  text-shadow: 3px 4px 8px #000;
+  color: #eee;
+  text-shadow: 1px 2px 5px #111;
 }
 
 .blog-cover section {
