@@ -2306,6 +2306,13 @@ article small {
   margin-top: 1em;
 }
 
+.identity p strong {
+  font-size: 15px;
+}
+.identity p {
+  font-size: 12px;
+}
+
 /* Bootstrap grid */
 .container {
   margin-right: auto;
