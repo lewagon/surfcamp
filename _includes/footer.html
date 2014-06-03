@@ -1,4 +1,12 @@
 <footer class="site-footer">
+  <div class="container partenaires">
+    <h3>Nos partenaires</h3>
+    {% for partenaire in site.data.partenaires %}
+      <a href="{{ partenaire.url }}" target="_blank">
+        <img src="{{ site.baseurl }}/assets/partenaires/{{ partenaire.img }}" alt="{{ partenaire.name }}">
+      </a>
+    {% endfor %}
+  </div>
   <div class="container">
     &copy; 2014
 
@@ -16,13 +24,6 @@
         <i class="icon icon-facebook black"></i>
       </a>
     </nav>
-  </div>
-  <div class="container partenaires">
-    {% for partenaire in site.data.partenaires %}
-      <a href="{{ partenaire.url }}" target="_blank">
-        <img src="{{ site.baseurl }}/assets/partenaires/{{ partenaire.img }}" alt="{{ partenaire.name }}">
-      </a>
-    {% endfor %}
   </div>
 </footer>
 

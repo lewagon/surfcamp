@@ -4,6 +4,8 @@
 
 .pull-left {
   float: left;
+  margin-top: -15px;
+  margin-right: 15px;
 }
 
 .center-auto {
@@ -1747,14 +1749,23 @@ article h2 a, article h2 a:hover {
     text-align: center;
 }
 .site-footer {
-    padding: 4em 0;
-    margin: 4em 0 0 0;
+    padding: 1em 0;
+    margin: 1em 0 0 0;
     background: whitesmoke;
     color: #aaa;
+}
+
+.site-footer h3 {
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 1em;
+    text-transform: uppercase;
 }
 .site-footer .partenaires {
   color: #aaa;
   margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 .site-footer .partenaires img {
   width: 120px;
