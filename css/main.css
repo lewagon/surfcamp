@@ -177,12 +177,12 @@ button, input, select[multiple], textarea {
     background-image: none;
 }
 a {
-    color: #2a6496;
+    color: rgb(102,166,154);
     text-decoration: none;
 }
 a:hover, a:focus {
     color: #2a6496;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:focus {
     outline: thin dotted #333;
@@ -1733,10 +1733,12 @@ h1, h2, h3, h4, h5 {
     line-height: 0;
 }
 section h2 {
-  color: #0A2633;
+  color: rgb(102, 166, 154);
+  font-family: 'Bitter', sans-serif;
 }
 article h2 a, article h2 a:hover {
-  color: #0A2633;
+  color: rgb(102, 166, 154);
+  font-family: 'Bitter', sans-serif;
   text-decoration: none;
 }
 .blog-cover section a:hover {
@@ -1902,6 +1904,11 @@ article h2 a, article h2 a:hover {
     margin: 0 0.9em;
     display: inline-block;
 }
+
+.site-nav #navigation .underlinable:hover{
+  border-bottom: 2px solid rgb(102,166,154);
+  padding-bottom: 5px;
+}
 .site-nav #navigation a:hover {
     color: #0A2633;
 }
@@ -2021,6 +2028,9 @@ article h2 {
     font-size: 1.5em;
     margin: 0.5em 0 1.5em 0;
     font-weight: 600;
+    color: rgb(102, 166, 154);
+    font-family: 'Bitter', sans-serif;
+    padding-top: 18px;
 }
 article h3 {
     font-size: 1.3em;
@@ -2265,7 +2275,7 @@ article small {
 }
 
 #calendar .title {
-  background:#0A2633;
+  background: rgb(205, 64, 53);
   border-radius:5px 5px 0 0;
   padding:20px;
   font-size:140%;
@@ -2309,7 +2319,7 @@ article small {
 }
 
 #calendar .current{
-  background:#0A2633;
+  background:rgb(205, 64, 53);
   font-weight:700;
   color:#fff;
   text-shadow:0 0 10px rgba(0,0,0,.5);
