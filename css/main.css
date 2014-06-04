@@ -1652,6 +1652,14 @@ h1, h2, h3, h4, h5 {
     background: #eee;
     height: 60%;
 }
+.blog-cover .dark {
+  background-color:rgba(0,0,0,0.4);
+  background-image: linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
 .article-cover>div, .blog-cover>div {
     position: absolute;
     top: 0;
@@ -1692,7 +1700,6 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
     background-position: center center;
     z-index: 1;
-    text-shadow: 1px 1px 3px #2E291F, 1px -1px 3px #2E291F;
 }
 .blog-cover h1 {
     font-size: 50px;
@@ -1705,8 +1712,8 @@ h1, h2, h3, h4, h5 {
 .blog-cover h3 {
   font-size:25px;
   font-weight: normal;
-  color: #fff;
-  text-shadow: 3px 4px 8px #000;
+  color: #eee;
+  text-shadow: 1px 2px 5px #111;
 }
 
 .blog-cover section {
