@@ -1,3 +1,7 @@
 - name: Woll
   url: http://www.wollbeer.com
   img: woll.png
+
+- name : SurfSession
+  url: http://www.surfsession.com
+  img: surfsession_color.png
