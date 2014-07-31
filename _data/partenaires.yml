@@ -2,6 +2,10 @@
   url: http://www.wollbeer.com
   img: woll.png
 
-- name : SurfSession
+- name: SurfSession
   url: http://www.surfsession.com
   img: surfsession_color.png
+
+- name: GirlsInTech Paris
+  url: http://gitparis.com
+  img: git_paris.png
